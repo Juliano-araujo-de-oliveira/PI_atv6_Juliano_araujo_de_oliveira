@@ -1,0 +1,13 @@
+
+body{
+    background-color:rgb(10, 122, 179);
+}
+select{width: 100%;height: 30%;}
+input{width: 100%;height: 30%;}  
+textarea{width: 100%;height: 30%;} 
+img{padding-top:50px}
+
+.msg-erro{
+    color:rgb(255, 0, 0);
+    font-size: 13px;
+}

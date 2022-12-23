@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XLpj+FDExzshBv1Mq//jVimgL7uHpV5zHoBM8ao5CNsdwF51ysVaQdgunoQLe0vM35pleCWp5vJQ+PF/vkQTkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\PI_atv5_Juliano_araujo_de_oliveira\\PI_atv5_Juliano_araujo_de_oliveira.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\mysqlconnector\\2.2.0\\mysqlconnector.2.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

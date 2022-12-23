@@ -1,0 +1,39 @@
+@using PI_atv5_Juliano_araujo_de_oliveira.Models
+@model List<DetalheAgenda>
+
+@{
+    ViewData["Title"] = "PaginaAgenda";
+}
+
+
+<link rel="stylesheet" href="~/site.css/paginaagenda.css">
+
+<h2>Encomendas</h2>
+<table Border ="3">
+<thead>
+<tr>
+<th>Nome</th>
+<th>Telefone</th>
+<th>Data</th>
+<th>horario</th>
+<th>Doce</th>
+<th>quantidade</th>
+
+
+</tr>
+</thead>
+<tbody>
+@foreach (DetalheAgenda p in Model)
+{
+ <tr>
+ <td>@p.nome</td>
+ <td>@p.telefone </td>
+ <td>@p.Data</td>
+ <td>@p.horario</td>
+ <td>@p.Doce</td>
+ <td>@p.quantidade</td>
+ </tr>
+}
+</tbody>
+
+</table>

@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PI_atv5_Juliano_araujo_de_oliveira</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQNRNOCCpDbpBD_gQE7HxgkbTJ09om4cM-Q&usqp=CAU">
+<link rel="stylesheet" href="~/site.css/layout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+
+
+</head>
+<body>
+    <header>
+   <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">  
+  <div class="container-fluid">
+    <a class="navbar-brand" asp-action="Servicos">PRODUTOS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-action="Index"> PRINCIPAL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" asp-action="encomendar">ENCOMENDAR</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+     NOVIDADES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/276/505/products/9564182783-ganache-meioamargo-0-acucar1-d86be28f4e78a5357c16007042300742-1024-1024-9fb2b116e57b15ed5716049328999127-320-0.jpg">Ganache</a></li>
+            <li><a class="dropdown-item" href="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/276/505/products/modelo-icone-site-choconutte-1kg-1280-x-8251-e68746bca07906c37d16426175356229-320-0.jpg">Choconutte</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/276/505/products/modelo-icone-site-chococookies-branco-1kg-1280-x-8251-00b78962e0eb07971916426411262891-320-0.png">Chococookies</a></li>
+          </ul>
+        </li>
+       
+      </ul>
+      <form class="d-flex" role="Pesquisar">
+        <input class="form-control me-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquise">
+        <button class="btn btn-dark" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+
+    </div>
+
+</main>
+    <footer class="border-top  footer text-muted mb-black">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+         <p>CONTATO(51)9999-9999<p>
+         EMAIL-gmaigmaigmail<p>
+         Face book <p>instagram
+            &copy; 2022 - PI_atv5_Juliano_araujo_de_oliveira -Lar Dos Doces
+            </div>
+            <div class="col-md-6">
+            Almirante Gonçalves, 26589 – Menino Deus<p>
+Av. Getúlio Vargas,0000 – Menino Deus<p>
+Shopping TOTAL – Av. Cristovão Colombo, 777 – Loja 33333– Floresta
+Av. Praia de Belas, 157 – Menino Deus
+
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/js.js"> </script>
+    @RenderSection("Scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+

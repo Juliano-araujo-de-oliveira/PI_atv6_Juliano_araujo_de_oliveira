@@ -1,0 +1,59 @@
+@using PI_atv5_Juliano_araujo_de_oliveira.Models
+@model DetalheAgenda
+@{
+    ViewData["Title"] = "encomendar";
+}
+<link rel="stylesheet" href="~/site.css/formul.css">
+<div class="Container">
+<div class="row">
+<div class="col-md-6">
+<h4>FAÇA SUA ENCOMENDA AQUI!</h4>
+
+<form asp-action="PaginaAgenda" method="post" nome="formulario"
+onsubmit="return Validar(this)">
+                   
+                   <p>
+                    <label asp-for="nome">Nome:</label>
+                    <span class="msg-erro msg-nome"> </span>
+                    <input asp-for="nome" type="text" id="nome"nome="nome">
+                    </p>
+                <p>
+                    <label asp-for="telefone">Telefone:</label>
+                    <span class="msg-erro msg-telefone"></span>
+                    <input asp-for="telefone" type="text" id="telefone"nome="telefone">
+                </p>
+                <p>
+                <label asp-for="Data">Data:</label>
+                <span class="msg-erro msg-Data"></span>
+                    <input asp-for="Data" type="text" id="Data"nome="Data">
+                    </p>
+                   <p>
+                    <label asp-for="Doce">Doce:</label>
+                    <span class="msg-erro msg-Doce"></span>
+                    <input asp-for="Doce"type="text" id="Doce"nome="Doce">
+                    </p>
+
+                    <p>
+                    <label asp-for="horario">Horario:</label>
+                    <span class="msg-erro msg-horario"></span>
+                    <input asp-for="horario" type="text" id="horario"nome="horario">
+                </p>
+                <p>
+                <label asp-for="quantidade">Quantidade:</label>
+                <span class="msg-erro msg-quantidade"></span>
+                    <input asp-for="quantidade" type="number" id="quantidade"nome="quantidade">
+                    </p>
+              
+<p>
+  <input type="submit" value="Enviar" class="Button">
+    </p>
+</form>
+</div>
+
+<div class="col-md-6">
+<img src="~/img/chocolate.jpg" width="500px" height="500px">
+
+</div>
+</div>
+</div>
+ 
